@@ -9,7 +9,6 @@ const buttons = [21, 20, 16, 6, 19, 5, 26]
 buttons.map((b) => {
   rpio.open(b, rpio.INPUT, rpio.PULL_UP)
 })
-// rpio.open(20, rpio.INPUT, rpio.PULL_UP);
 
 module.exports = (onPressKey) => {
   let buffer
