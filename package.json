@@ -1,0 +1,11 @@
+{
+  "name": "raspi-sh1106-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "terrierscript <13282103+terrierscript@users.noreply.github.com>",
+  "license": "MIT",
+  "optinalDependencies": {
+    "sh1106": "*",
+    "rpio": "*"
+  }
+}
